@@ -7,7 +7,7 @@ import {Machine} from "../model/machine";
   providedIn: 'root'
 })
 export class RestApiService {
-  private baseURL = "http://192.168.1.98:8080/api/v1/";
+  private baseURL = "http://localhost:8080/api/v1/";
 
   constructor(private httpClient: HttpClient) { }
 
